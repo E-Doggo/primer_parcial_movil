@@ -81,7 +81,7 @@ class _PostInterfaceState extends State<PostInterface> {
     }
 
     return Scaffold(
-      appBar: AppBar(title: const Text("User Authentification")),
+      appBar: AppBar(title: const Text("Posts rating")),
       body: Container(
         child: BlocBuilder<PostCubit, PostState>(
           builder: (context, state) {
